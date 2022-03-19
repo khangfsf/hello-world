@@ -2,7 +2,7 @@
    <head><title>Hello World</title></head>
    
    <body>
-      Hello new User!<br/>
+      Hello new container: <br/>
       <%
          out.println("Your IP address is " + request.getRemoteAddr());
       %>
